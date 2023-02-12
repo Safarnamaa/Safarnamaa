@@ -840,7 +840,7 @@
 
         .header .menu>.menu-item:hover>a .plus:before,
         .header .menu>.menu-item:hover>a .plus:after {
-            background-color: rgb(1, 1, 58);
+            background-color: rgb(162, 38, 160);
         }
 
         .header .menu>.menu-item>a .plus:after {
@@ -849,7 +849,7 @@
 
         .header .menu>.menu-item>.sub-menu>.menu-item>a:hover,
         .header .menu>.menu-item:hover>a {
-            color: rgb(1, 1, 58);
+            color: rgb(162, 38, 160);
         }
 
         .header .menu>.menu-item>.sub-menu {

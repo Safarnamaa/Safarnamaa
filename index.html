@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safarnama</title>
+    <title>Safarnama 2.0</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
+ 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
 
@@ -39,35 +39,41 @@
                         <li class="menu-item">
                             <a href="#">Home</a>
                         </li>
-                        <li class="menu-item menu-item-has-children">
-                            <a href="#" data-toggle="sub-menu">Sector <i class="plus"></i></a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="#">Grocery</a></li>
-                                <li class="menu-item"><a href="#">Hotels</a></li>
-                                <li class="menu-item"><a href="#">Restaurants</a></li>
-                                <li class="menu-item"><a href="#">Coming Soon</a></li>
-                            </ul>
-                        </li>
                         <li class="menu-item">
                             <a href="#home">About Us</a>
                         </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#registration" data-toggle="sub-menu">Register <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">As a student</a></li>
+                                <li class="menu-item"><a href="#">As an alumni</a></li>
+                                <!-- <li class="menu-item"><a href="#">Restaurants</a></li> -->
+                                <!-- <li class="menu-item"><a href="#">Coming Soon</a></li> -->
+                            </ul>
+                        </li>
+
                         <li class="menu-item">
-                            <a href="#">Events</a>
+                            <a href="#gallery">Gallery</a>
+                        </li>
+
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#team" data-toggle="sub-menu">Teams <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">2022</a></li>
+                                <li class="menu-item"><a href="#">2023</a></li>
+                            </ul>
                         </li>
                         <li class="menu-item">
-                            <a href="#">jobs</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">Contact Us</a>
+                            <a href="#sponser">Sponsors</a>
                         </li>
                         <li class="menu-item menu-item-has-children">
                             <a href="#" data-toggle="sub-menu"> <i class="plus"></i></a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="#">Home</a></li>
-                                <li class="menu-item"><a href="#">Event</a></li>
-                                <li class="menu-item"><a href="#">Jobs</a></li>
-                                <li class="menu-item"><a href="#">Blog</a></li>
-                                <li class="menu-item"><a href="#">Legale term</a></li>
+                                <li class="menu-item"><a href="#teacher">Supervisery</a></li>
+                                <li class="menu-item"><a href="#contact">Contact Us</a></li>
+                                <li class="menu-item"><a href="#social">Social Media</a></li>
+                                <!-- <li class="menu-item"><a href="#">Blog</a></li> -->
+                                <!-- <li class="menu-item"><a href="#">Legale term</a></li> -->
                             </ul>
                         </li>
                     </ul>
@@ -108,7 +114,7 @@
 
     </section>
     <!-- gallery starts -->
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <h1 class="heading"><span>Gallery</span></h1>
         <div class="slider">
             <div class="slide-track">
