@@ -656,13 +656,14 @@
             background-image: url("Safarnama Logo.gif");
             background-color: #000000;
             background-position: center;
+            margin-top: 10px;
             background-repeat: no-repeat;
             background-size: cover;
         }
 
         .dropbtn {
             background-color: var(--yellow);
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             /* padding: 16px; */
             /* font-size: 16px; */
             border: none;
@@ -674,6 +675,10 @@
             margin-top: 1rem;
             font-size: 2rem;
             border-radius: 5rem;
+        }
+        .btn span,.dropbtn span{
+            color: #000000;
+            font-weight: bold;
         }
 
         /* The container <div> - needed to position the dropdown content */
@@ -835,7 +840,7 @@
 
         .header .menu>.menu-item:hover>a .plus:before,
         .header .menu>.menu-item:hover>a .plus:after {
-            background-color: rgb(1, 1, 58);
+            background-color: rgb(162, 38, 160);
         }
 
         .header .menu>.menu-item>a .plus:after {
@@ -844,7 +849,7 @@
 
         .header .menu>.menu-item>.sub-menu>.menu-item>a:hover,
         .header .menu>.menu-item:hover>a {
-            color: rgb(1, 1, 58);
+            color: rgb(162, 38, 160);
         }
 
         .header .menu>.menu-item>.sub-menu {

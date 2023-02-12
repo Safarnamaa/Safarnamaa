@@ -4,16 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safarnama</title>
+    <title>Safarnama 2.0</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
+ 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
 
-
-    </style>
 
 </head>
 
@@ -25,7 +23,7 @@
         <div class="container">
             <div class="header-main">
                 <div class="logo">
-                    <a href="#">Safarnama 2.O</a>
+                    <a href="index.html">Safarnama 2.O</a>
                 </div>
                 <div class="open-nav-menu">
                     <span></span>
@@ -41,35 +39,41 @@
                         <li class="menu-item">
                             <a href="#">Home</a>
                         </li>
+                        <li class="menu-item">
+                            <a href="#home">About Us</a>
+                        </li>
                         <li class="menu-item menu-item-has-children">
-                            <a href="#" data-toggle="sub-menu">Sector <i class="plus"></i></a>
+                            <a href="#registration" data-toggle="sub-menu">Register <i class="plus"></i></a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="#">Grocery</a></li>
-                                <li class="menu-item"><a href="#">Hotels</a></li>
-                                <li class="menu-item"><a href="#">Restaurants</a></li>
-                                <li class="menu-item"><a href="#">Coming Soon</a></li>
+                                <li class="menu-item"><a href="#">As a student</a></li>
+                                <li class="menu-item"><a href="#">As an alumni</a></li>
+                                <!-- <li class="menu-item"><a href="#">Restaurants</a></li> -->
+                                <!-- <li class="menu-item"><a href="#">Coming Soon</a></li> -->
+                            </ul>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#gallery">Gallery</a>
+                        </li>
+
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#team" data-toggle="sub-menu">Teams <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="team2022.html">2022</a></li>
+                                <li class="menu-item"><a href="#">2023</a></li>
                             </ul>
                         </li>
                         <li class="menu-item">
-                            <a href="#">About Us</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">Events</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">jobs</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">Contact Us</a>
+                            <a href="#sponser">Sponsors</a>
                         </li>
                         <li class="menu-item menu-item-has-children">
                             <a href="#" data-toggle="sub-menu"> <i class="plus"></i></a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="#">Home</a></li>
-                                <li class="menu-item"><a href="#">Event</a></li>
-                                <li class="menu-item"><a href="#">Jobs</a></li>
-                                <li class="menu-item"><a href="#">Blog</a></li>
-                                <li class="menu-item"><a href="#">Legale term</a></li>
+                                <li class="menu-item"><a href="#teacher">Supervisery</a></li>
+                                <li class="menu-item"><a href="#contact">Contact Us</a></li>
+                                <li class="menu-item"><a href="#social">Social Media</a></li>
+                                <!-- <li class="menu-item"><a href="#">Blog</a></li> -->
+                                <!-- <li class="menu-item"><a href="#">Legale term</a></li> -->
                             </ul>
                         </li>
                     </ul>
@@ -110,7 +114,7 @@
 
     </section>
     <!-- gallery starts -->
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <h1 class="heading"><span>Gallery</span></h1>
         <div class="slider">
             <div class="slide-track">
@@ -161,10 +165,10 @@
                 MICR :- 700024079<br>
             </b> </p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0DAUSJ93cT0ZA_Uo5-fXOslMnkIMzQeA-yuUSRDjgjMg4Mg/viewform"><button
-                class="btn">Register Yourself(As an alumni)<i class="fas fa-user"></i></button></a>
+                class="btn"><span>Register Yourself(As an alumni)<i class="fas fa-user"></i></span></button></a>
         <!-- <a href="#about"><button class="btn">Register Yourself ( As a student)<i class="fas fa-user"></i></button></a> -->
         <div class="dropdown">
-            <button class="dropbtn">Register Yourself (As a student )<i class="fas fa-user"></i></button>
+            <button class="dropbtn"><span> Register Yourself (As a student )<i class="fas fa-user"></i></span></button>
             <div class="dropdown-content">
                 <a href="https://forms.gle/4kVsPEMxkzbdDNzx8">1st year</a>
                 <a href="https://forms.gle/9nD6wxkM9DZAqVh56">2nd year</a>
@@ -198,7 +202,7 @@
             <div class="row">
 
                 <div class="counter">
-                    <a href="">
+                    <a href="team2022.html">
                         <div class="box">
                             <!-- <img src="alfia.jpeg"> -->
                             <h3></h3>
@@ -283,97 +287,18 @@
                 <h4 class="team-heading"> <span>2022</span></h1>
             </div>
             <div class="dummy"></div>
-            <div class="row">
+                <div class="row">
 
-                <!-- <div class="counter">
-                        <div class="box" id="sponsor">
-                            <img src="alfia.jpeg">
-                            <h3></h3>
-                            <br>
-                            <h3>Safarnama</h3>
-                            <h3>2022</h3>
-    
-                            <h3>Team</h3>
-                        </div>
                     
-                        <div class="box">
-                            <img src="ayonroy.jpeg">
-                            <h3>Safarnama 2.O</h3>
-                            <h3>2023</h3>
-                            <br>
-                            <h3>Team</h3>
-    
-                        </div>
-                        <div class="box">
-                            <img src="ayonroy.jpeg">
-                            <h3>Safarnama 2.O</h3>
-                            <h3>2023</h3>
-                            <br>
-                            <h3>Team</h3>
-    
-                        </div>
-                        <div class="box">
-                            <img src="ayonroy.jpeg">
-                            <h3>Safarnama 2.O</h3>
-                            <h3>2023</h3>
-                            <br>
-                            <h3>Team</h3>
-    
-                        </div>
-                        <div class="box">
-                            <img src="ayonroy.jpeg">
-                            <h3>Safarnama 2.O</h3>
-                            <h3>2023</h3>
-                            <br>
-                            <h3>Team</h3>
-    
-                        </div>
-                        <div class="box">
-                            <img src="ayonroy.jpeg">
-                            <h3>Safarnama 2.O</h3>
-                            <h3>2023</h3>
-                            <br>
-                            <h3>Team</h3>
-    
-                        </div>
-                        <div class="box">
-                            <img src="ayonroy.jpeg">
-                            <h3>Safarnama 2.O</h3>
-                            <h3>2023</h3>
-                            <br>
-                            <h3>Team</h3>
-    
-                        </div>
-                        <div class="box">
-                            <img src="ayonroy.jpeg">
-                            <h3>Safarnama 2.O</h3>
-                            <h3>2023</h3>
-                            <br>
-                            <h3>Team</h3>
-    
-                        </div>
-                        <div class="box">
-                            <img src="ayonroy.jpeg">
-                            <h3>Safarnama 2.O</h3>
-                            <h3>2023</h3>
-                            <br>
-                            <h3>Team</h3>
-    
-                        </div>
-                    
+                    <picture>
+                        <source media="(min-width: 900px)" srcset="sponsorbg.png">
+                        <source media="(min-width: 380px)" srcset="sponsorbg2.png">
+                        <img src="sponsorbg2.png" alt="IfItDoesntMatchAnyMedia">
+                    </picture>
 
-                </div> -->
+                </div>
 
-                <!-- <img src="sponsorbg.png"> -->
-                <picture>
-                    <source media="(min-width: 900px)" srcset="sponsorbg.png">
-                    <source media="(min-width: 380px)" srcset="sponsorbg2.png">
-                    <img src="sponsorbg2.png" alt="IfItDoesntMatchAnyMedia">
-                </picture>
-
-            </div>
-
-        </div>
+          </div>
 
         </div>
     </section>
