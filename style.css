@@ -45,6 +45,8 @@
             padding-left: 0rem;
         }
 
+    
+
         section {
             min-height: 100vh;
             padding: 1rem;
@@ -83,6 +85,17 @@
             color: var(--yellow);
         }
 
+        #user span{
+            color: var(--yellow);   
+        }
+
+        @media (max-width:760px) {
+
+            #user span {
+                font-size: 55%;
+            }
+        }
+
         .team-heading {
             text-align: center;
             margin: 0 6rem;
@@ -102,6 +115,7 @@
             flex-flow: column;
             padding: 0 15rem;
             /* background-image: url("regbg.gif"); */
+            /* background-color: pink */
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -671,14 +685,20 @@
         } */
 
         .video {
-            background-color: rgb(0, 0, 0);
-            background-image: url("logo.gif");
+            /* background-color: rgb(190, 158, 158); */
+            background-image: url("./gallery/img3.jpeg");
             background-position: center;
-            margin-top: 80px;
-            /* margin-left: 200px; */
-            /* margin-left: 5%; */
+            /* margin-top: 80px; */
             background-repeat: no-repeat;
             background-size: cover;
+            
+        }
+
+        .back-video{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
         }
 
         .dropbtn {
@@ -981,7 +1001,7 @@
         }
 
         /*home section*/
-        .home-section {
+        /* .home-section {
             width: 100%;
             display: block;
             min-height: 70vh;
@@ -989,7 +1009,7 @@
             background-position: center top;
             background-size: cover;
             background-color: #000000;
-        }
+        } */
 
 
         /* responsive */
@@ -1174,3 +1194,24 @@
         .social-links a:hover {
             color: #000000;
         }
+
+        header .user img {
+            margin: 7px;
+            height: 10rem;
+            width: 10rem;
+            border-radius: 50%;
+            object-fit: cover;
+            /* margin-bottom: 10rem; */
+            border: .4rem solid var(--yellow);
+        }
+
+        @media (max-width:760px) {
+
+            header .user img {
+                width: 25%;
+                height: 25%;
+            }
+        }
+
+       /* 888************************************** */
+       /* */
