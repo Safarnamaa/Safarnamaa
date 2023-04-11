@@ -211,7 +211,94 @@
         }
 
 
+        html{
+            background: #000000;
+            margin-top: 100px;
+             
+        }
+        .container{
+            background-color: #000000;
+            padding: 10px;
+        }
+         
+        .our-team{
+            padding: 20px 15px 30px;
+            background: transparent;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .our-team .pic{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            padding: 10px;
+            margin-bottom: 25px;
+            transition: all 0.5s ease 0s;
+        }
+        .our-team:hover .pic{
+            background-color: var(--yellow);
+            border-radius: 100%;
+        }
+        .pic img{
+            width: 20rem;
+            height: 20rem;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .pic img :hover{
+            transform: translateZ(10px);
+        }
+        .our-team .title{
+            display: block;
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(210, 216, 255);
+            text-transform: uppercase;
+            margin: 0 0 7px 0;
+        }
+        .our-team .post{
+            display: block;
+            font-size: 15px;
+            color: #17bebb;
+            text-transform: capitalize;
 
+        }
+        .our-team .number{
+            display: block;
+            font-size: 15px;
+            color: rgb(228, 11, 102);
+            text-transform: capitalize;
+            margin-bottom: 15px;
+        }
+        .our-team .social{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .our-team .social li{
+            display: inline-block;
+            margin-right: 5px;
+        }
+        .our-team .social li a{
+            display: block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 50%;
+            font-size: 15px;
+            color: #b83ab1;
+            border: 1px solid #b83ab1;
+            transition: all 0.5s ease 0s;
+        }
+        .our-team:hover .social li a{
+            background: #b83ab1;
+            color: #fff;
+        }
+        @media only screen and (max-width: 990px){
+            .our-team{ margin-bottom: 30px; }
+        }
+        
         .about .row .counter .box span {
             font-size: 4rem;
             color: var(--yellow);
