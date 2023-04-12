@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team2022</title>
-    
+
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
+    <style>
+        .about {
+            padding-top: 50px;
+        }
+
+        /* button {
+            padding: 20px;
+            border: 2px;
+            border-color: rgba(red, rgb(230, 12, 103), blue, alpha);
+        } */
+
+        .btn {
+            border: 2px solid rgb(255, 136, 0);
+            background-color: rgb(216, 25, 57);
+            color: rgb(255, 255, 255);
+            padding: 14px 28px;
+            /* font-size: 16px; */
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            border-color: blue;
+            background: #86057c;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="header-main">
-                <div class="logo">
-                    <a href="index.html">Safarnama 2.O</a>
+                <div class="user">
+                    <img src="Safarnama Logo.png">
+                </div>
+                <div class="logo" id="user">
+                    <span>Safarnama</span>2.O
+
                 </div>
                 <div class="open-nav-menu">
                     <span></span>
@@ -26,50 +58,14 @@
                 </div>
                 <!-- navigation menu start -->
                 <nav class="nav-menu">
-                    <div class="close-nav-menu">
+                    <!-- <div class="close-nav-menu">
                         <img src="close.svg" alt="close">
-                    </div>
+                    </div> -->
                     <ul class="menu">
                         <li class="menu-item">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#home">About Us</a>
-                        </li>
-                        <li class="menu-item menu-item-has-children">
-                            <a href="#registration" data-toggle="sub-menu">Register <i class="plus"></i></a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="#">As a student</a></li>
-                                <li class="menu-item"><a href="#">As an alumni</a></li>
-                                <!-- <li class="menu-item"><a href="#">Restaurants</a></li> -->
-                                <!-- <li class="menu-item"><a href="#">Coming Soon</a></li> -->
-                            </ul>
+                            <a href="index.html"><button class="btn">Home</button> </a>
                         </li>
 
-                        <li class="menu-item">
-                            <a href="#gallery">Gallery</a>
-                        </li>
-
-                        <li class="menu-item menu-item-has-children">
-                            <a href="#team" data-toggle="sub-menu">Teams <i class="plus"></i></a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="#">2022</a></li>
-                                <li class="menu-item"><a href="#">2023</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#sponser">Sponsors</a>
-                        </li>
-                        <li class="menu-item menu-item-has-children">
-                            <a href="#" data-toggle="sub-menu"> <i class="plus"></i></a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="#teacher">Supervisery</a></li>
-                                <li class="menu-item"><a href="#contact">Contact Us</a></li>
-                                <li class="menu-item"><a href="#social">Social Media</a></li>
-                                <!-- <li class="menu-item"><a href="#">Blog</a></li> -->
-                                <!-- <li class="menu-item"><a href="#">Legale term</a></li> -->
-                            </ul>
-                        </li>
                     </ul>
                 </nav>
                 <!-- navigation menu end -->
@@ -105,7 +101,7 @@
                     <div class="box">
                         <img src="subhrajyoti.jpeg">
                         <h3>Subhrajyoti Ghosh</h3>
-                        <h3>Design Team - Head</h3>
+                        <h3>(Design, Cultural) Team - Head</h3>
                         <br>
                         <h3>Contact No : 6295326100</h3>
                     </div>
@@ -140,7 +136,7 @@
                         <br>
                         <h3>Contact No : 7449979923</h3>
                     </div>
-                    
+
                     <div class="box">
                         <img src="aniruddha.jpeg">
                         <h3>Anirudha Chowdhary</h3>
@@ -205,7 +201,7 @@
                         <br>
                         <h3>Contact No : 9874690784</h3>
                     </div>
-                    
+
                     <div class="box">
                         <img src="subhadeep.jpeg">
                         <h3>Subhadeep Chakraborty</h3>
@@ -260,4 +256,5 @@
     <!-- team ends -->
 
 </body>
+
 </html>
