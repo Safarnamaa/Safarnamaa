@@ -196,6 +196,7 @@
             background-repeat: no-repeat;
             background-position: center;
             transition: transform .5s;
+            
             /* Animation */
 
 
@@ -239,7 +240,9 @@
         .our-team:hover .pic{
             background-color: var(--yellow);
             border-radius: 100%;
+            /* box-shadow: #333333; */
         }
+        
         .pic img{
             width: 20rem;
             height: 20rem;
@@ -773,7 +776,7 @@
 
         .video {
             /* background-color: rgb(190, 158, 158); */
-            background-image: url("./gallery/img3.jpeg");
+            background-image: url("homebg.gif");
             background-position: center;
             /* margin-top: 80px; */
             background-repeat: no-repeat;
@@ -917,7 +920,7 @@
             padding: 0 15px;
         }
 
-        .header .logo a {
+        .header .logo  {
             font-size: 30px;
             text-transform: capitalize;
             color: rgb(1, 1, 58);
@@ -1302,3 +1305,13 @@
 
        /* 888************************************** */
        /* */
+
+       /* .logo .span{
+        animation:  color-change 1s infinite;
+       }
+
+       @keyframes color-change{
+        0%{color : var(--yellow);}
+        50%{color: blue;}
+        100%{color: rgb(233, 144, 10);}
+       } */
