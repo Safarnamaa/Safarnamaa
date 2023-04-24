@@ -6,6 +6,7 @@
 
 * {
     font-family: 'Nunito', sans-serif;
+    /* font-family: Brush Script MT, Brush Script Std, cursive; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -92,7 +93,7 @@ section {
 @media (max-width:760px) {
 
     #user span {
-        font-size: 55%;
+        font-size: 75%;
     }
 }
 
@@ -648,7 +649,7 @@ html{
 
 /* media queries  */
 
-@media (max-width:1200px) {
+@media (max-width:991px) {
 
     html {
         font-size: 55%;
@@ -1302,10 +1303,10 @@ header .user img {
 
 @media (max-width:760px) {
 
-    header .user img {
-        width: 25%;
-        height: 25%;
-    }
+    /* header .user img {
+        width: 75%;
+        height: 75%;
+    } */
 }
 header .user-2 img {
     margin: 7px;
