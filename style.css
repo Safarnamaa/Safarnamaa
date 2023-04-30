@@ -264,7 +264,7 @@ html{
     font-weight: 600;
     color: rgb(210, 216, 255);
     text-transform: uppercase;
-    margin: 0 0 7px 0;
+    margin: 2 0 7px 0;
 }
 .our-team .post{
     display: block;
@@ -423,7 +423,8 @@ html{
 
 .contact .row .content {
     flex: 1 1 30rem;
-    padding: 4rem;
+    padding: 8rem;
+    padding-right: 6px;
     padding-bottom: 0;
 }
 
